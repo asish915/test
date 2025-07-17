@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Nothing to install for static app."
+
+  build:
+    commands:
+      - echo "Preparing static app artifact..."
+
+artifacts:
+  files:
+    - simple-app/**/*
+    - appspec.yaml
+    - scripts/**/*
+  base-directory: .
+  discard-paths: no

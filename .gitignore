@@ -1,0 +1,15 @@
+# Excluding .terraform modules and state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+# Excluding local environment files
+*.local
+# Excluding sensitive files
+*.pem
+# Excluding IDE specific files
+.idea/
+# Excluding log files
+*.log
+# Excluding temporary files
+*.tmp
