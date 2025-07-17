@@ -13,7 +13,7 @@ variable "role_arn" {
 variable "s3_bucket" {
   description = "S3 bucket for artifacts"
   type        = string
-  default     = "simple-static-app-artifact-bucket-12345"  # Change accordingly
+  default     = "simple-static-app-s3-bucket25"  # Change accordingly
 }
 
 variable "github_connection_arn" {
