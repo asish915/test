@@ -66,6 +66,7 @@ resource "aws_iam_role" "ec2_instance_role" {
 
 # Inline policy for EC2 role
 resource "aws_iam_role_policy" "ec2_policy" {
+  name = var.ec2_instance_profile_name
   role = aws_iam_role.ec2_instance_role.name
 
   policy = jsonencode({
