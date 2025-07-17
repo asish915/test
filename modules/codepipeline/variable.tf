@@ -19,7 +19,7 @@ variable "s3_bucket" {
 variable "github_connection_arn" {
   description = "GitHub CodeStar connection ARN"
   type        = string
-  default     = "arn:aws:codestar-connections:ap-south-1:068760013706:connection/ee543607-fa74-4104-b63b-c3b9e8979bd8"  # Change accordingly
+  default     = "arn:aws:codestar-connections:ap-south-1:068760013706:connection/69aa5827-de01-4d9d-b6f2-525ae313c16d"  # Change accordingly
 }
 
 variable "codebuild_project_name" {
